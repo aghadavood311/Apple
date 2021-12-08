@@ -1,0 +1,319 @@
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.692);
+        height: 1090px;
+    }
+    
+    .mec {
+        position: relative;
+    }
+    
+    .mec .nkar {
+        margin: 0 auto;
+        position: absolute;
+        width: 40%;
+        top: 200px;
+        left: 120px;
+    }
+    
+    .mecreg {
+        position: relative;
+        border: 4px solid rgb(105, 230, 235);
+        height: 500px;
+        width: 500px;
+        left: 1200px;
+        top: 200px;
+        border-radius: 12px;
+        background-color: rgb(87, 80, 93);
+    }
+    
+    .mecreg .text {
+        position: absolute;
+        background-color: rgb(58, 49, 49);
+        height: 100px;
+        width: 100%;
+    }
+    
+    .mecreg .text .titr {
+        color: rgb(255, 255, 255);
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        left: 155px;
+        font-size: 38px;
+    }
+    
+    .mecreg .titr:hover {
+        color: rgb(255, 255, 255);
+    }
+    
+    .mecreg .inputner {
+        position: absolute;
+        top: 150px;
+    }
+    
+    .mecreg .inputner .anun {
+        position: absolute;
+        top: 10px;
+        left: 120px;
+        border-radius: 10px;
+        height: 30px;
+        border:none;
+        width: 100px;
+    }
+    
+    .mecreg .inputner .azganun {
+        position: absolute;
+        top: 10px;
+        left: 270px;
+        border-radius: 10px;
+        height: 30px;
+        border: none;
+        width: 100px;
+    }
+    
+    .mecreg .inputner .mail {
+        position: absolute;
+        top: 70px;
+        left: 120px;
+        border-radius: 10px;
+        height: 30px;
+        border: none;
+        width: 250px;
+    }
+    
+    .mecreg .inputner .password {
+        position: absolute;
+        top: 129px;
+        left: 120px;
+        border-radius: 10px;
+        height: 30px;
+        border: none;
+        width: 250px;
+    }
+    
+    .mecreg .inputner .buton {
+        position: absolute;
+        top: 185px;
+        left: 200px;
+        height: 40px;
+        width: 90px;
+        cursor: pointer;
+        border-radius: 12px;
+    }
+    
+    .mecreg .inputner .buton a {
+        text-decoration: none;
+        list-style: none;
+        color: black;
+    }
+    /* RESPONSIVE */
+    /* Start of Ipad pro */
+    
+    @media screen and (max-width: 768px) {
+        .mec {
+            display: none;
+        }
+        .mecreg {
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    /* End of Ipad pro */
+    /* Start of  pixel2 */
+    
+    @media screen and (max-width: 420px) {
+        .mec {
+            display: none;
+        }
+        .mecreg {
+            left: 0px;
+            top: 0px;
+            height: 100%;
+            width: 100%;
+        }
+        .mecreg .inputner .anun {
+            width: 160px;
+            left: 20px;
+            top: 70px;
+            height: 60px;
+        }
+        .mecreg .inputner .azganun {
+            width: 160px;
+            left: 216px;
+            top: 70px;
+            height: 60px;
+        }
+        .mecreg .inputner .mail {
+            width: 355px;
+            left: 20px;
+            top: 190px;
+            height: 60px;
+        }
+        .mecreg .inputner .password {
+            width: 355px;
+            left: 20px;
+            top: 300px;
+            height: 60px;
+        }
+        .mecreg .inputner .buton {
+            width: 360px;
+            left: 20px;
+            top: 400px;
+            height: 60px;
+        }
+    }
+    /* End of  pixel2 */
+    /* Start of iphone6/7/8 */
+    
+    @media screen and (max-width: 420px) {
+        .mec {
+            display: none;
+        }
+        .mecreg {
+            left: 0px;
+            top: 0px;
+            height: 100%;
+            width: 100%;
+        }
+        .mecreg .inputner .anun {
+            width: 160px;
+            left: 30px;
+            top: 40px;
+            height: 60px;
+        }
+        .mecreg .inputner .azganun {
+            width: 160px;
+            left: 225px;
+            top: 40px;
+            height: 60px;
+        }
+        .mecreg .inputner .mail {
+            width: 355px;
+            left: 30px;
+            top: 150px;
+            height: 60px;
+        }
+        .mecreg .inputner .password {
+            width: 355px;
+            left: 30px;
+            top: 270px;
+            height: 60px;
+        }
+        .mecreg .inputner .buton {
+            width: 360px;
+            left: 29px;
+            top: 370px;
+            height: 60px;
+        }
+        .mecreg .text .titr {
+            color: rgb(255, 255, 255);
+            font-family: 'Arial Narrow', Arial, sans-serif;
+            position: absolute;
+            left: 130px;
+            font-size: 38px;
+        }
+    }
+    /*  End of phone6/7/8*/
+    /* Start of Iphone X */
+    
+    @media screen and (max-width: 375px) {
+        .mec {
+            display: none;
+        }
+        .mecreg {
+            left: 0;
+            top: 0;
+            height: 100%;
+        }
+        .mecreg .inputner .anun {
+            width: 160px;
+            left: 10px;
+            top: 70px;
+            height: 60px;
+        }
+        .mecreg .inputner .azganun {
+            width: 160px;
+            left: 206px;
+            top: 70px;
+            height: 60px;
+        }
+        .mecreg .inputner .mail {
+            width: 355px;
+            left: 10px;
+            top: 190px;
+            height: 60px;
+        }
+        .mecreg .inputner .password {
+            width: 355px;
+            left: 10px;
+            top: 300px;
+            height: 60px;
+        }
+        .mecreg .inputner .buton {
+            width: 360px;
+            left: 10px;
+            top: 400px;
+            height: 60px;
+        }
+        .mecreg .text .titr {
+            color: rgb(255, 255, 255);
+            font-family: 'Arial Narrow', Arial, sans-serif;
+            position: absolute;
+            left: 110px;
+            font-size: 38px;
+        }
+    }
+    /* End of Iphone X */
+    /*  Start of  Iphone5s */
+    
+    @media screen and (max-width: 320px) {
+        .mec {
+            display: none;
+        }
+        .mecreg {
+            left: 0;
+            top: 0;
+            height: 100%;
+        }
+        .mecreg .inputner .anun {
+            width: 100px;
+            left: 20px;
+            top: 0px;
+            height: 50px;
+        }
+        .mecreg .inputner .azganun {
+            width: 100px;
+            left: 200px;
+            top: 0px;
+            height: 50px;
+        }
+        .mecreg .inputner .mail {
+            width: 280px;
+            left: 20px;
+            top: 100px;
+            height: 50px;
+        }
+        .mecreg .inputner .password {
+            width: 280px;
+            left: 20px;
+            top: 200px;
+            height: 50px;
+        }
+        .mecreg .inputner .buton {
+            width: 285px;
+            left: 20px;
+            top: 290px;
+            height: 60px;
+        }
+        .mecreg .text .titr {
+            color: rgb(255, 255, 255);
+            font-family: 'Arial Narrow', Arial, sans-serif;
+            position: absolute;
+            left: 80px;
+            font-size: 38px;
+        }
+    }
+    /*  End of  Iphone5s */

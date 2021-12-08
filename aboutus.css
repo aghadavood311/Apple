@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap);
+
+body{
+margin:0;
+padding:0;
+box-sizing: border-box;
+height: 1000px;
+background-color: rgba(11, 12, 11, 0.774);
+}
+/* Headerstart */
+header {
+    position: relative;
+    z-index: 2;
+    background-color: rgb(51, 51, 51);
+}
+
+.header_contents {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    color: white;
+    cursor: default;
+}
+
+.logo span {
+    color: yellow;
+}
+
+#icon_resp {
+    font-size: 26px;
+    color: white;
+    display: none;
+    cursor: pointer;
+    transition: color 0.6s ease;
+}
+
+#icon_resp:hover {
+    color: yellow;
+}
+
+.ej {
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.6s ease;
+}
+
+.ej:hover {
+    color: yellow;
+}
+
+.mobile-menu {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #222;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    pointer-events: none;
+}
+
+
+
+
+
+.wrap{
+width: 90%;
+margin:0px auto;
+background: red;
+margin-left: 9%;
+
+}
+.circle{
+   width: 80%; 
+   float: left;
+   margin: 15px;
+   color: #fff;
+   background: #262626;
+   border-radius: 15px;
+   box-shadow: 0 2px 20px rgb(0.0,0,0.8);
+   padding: 5px;
+   border-radius: 15px;
+}
+.circle img{
+width: 50%;
+border-radius: 50%;
+float: left;
+margin: 10% 5% 12% 0;
+border: 5px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 488px) {
+    #icon_resp {
+        display: block;
+    }
+    .Menu {
+        display: none;
+    }
+    .active {
+        left: 0;
+        opacity: 1;
+        pointer-events: auto;
+        transition: left 0.6s ease-in-out;
+    }
+    .ej {
+        font-size: 24px;
+        margin: 30px 0;
+    }
+}
